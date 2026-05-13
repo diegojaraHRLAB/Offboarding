@@ -1,0 +1,102 @@
+<svg width="600" height="260" viewBox="0 0 600 260" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f8f9fc"/>
+      <stop offset="100%" style="stop-color:#eef0f7"/>
+    </linearGradient>
+    <linearGradient id="pink2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#e91e8c"/>
+      <stop offset="100%" style="stop-color:#ff6b9d"/>
+    </linearGradient>
+    <linearGradient id="gray2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#6b7280"/>
+      <stop offset="100%" style="stop-color:#9ca3af"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Fondo -->
+  <rect width="600" height="260" fill="url(#bg2)" rx="12"/>
+  <rect x="0" y="0" width="600" height="4" fill="url(#pink2)" rx="12"/>
+
+  <!-- Título -->
+  <text x="300" y="32" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#1a1a2e" text-anchor="middle" letter-spacing="2">PROCESO DE OFFBOARDING</text>
+  <text x="300" y="50" font-family="Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="middle">Sigue estos pasos para completar tu proceso de salida</text>
+
+  <!-- Línea conectora horizontal -->
+  <!-- Segmento 1-2: gris -->
+  <rect x="90" y="118" width="65" height="3" fill="#d1d5db"/>
+  <!-- Segmento 2-3: gris -->
+  <rect x="205" y="118" width="65" height="3" fill="#d1d5db"/>
+  <!-- Segmento 3-4: gris -->
+  <rect x="320" y="118" width="65" height="3" fill="#d1d5db"/>
+  <!-- Segmento 4-5: ROSA (highlight último paso) -->
+  <rect x="435" y="118" width="65" height="3" fill="url(#pink2)"/>
+
+  <!-- === PASO 1 === -->
+  <g transform="translate(50, 80)">
+    <circle cx="0" cy="40" r="32" fill="#4b5563"/>
+    <text x="0" y="28" font-size="18" text-anchor="middle" fill="white">📧</text>
+    <text x="0" y="46" font-family="Arial" font-size="8" font-weight="bold" fill="white" text-anchor="middle">CORREO</text>
+    <text x="0" y="56" font-family="Arial" font-size="8" font-weight="bold" fill="white" text-anchor="middle">OFFBOARDING</text>
+    <!-- Número -->
+    <circle cx="22" cy="12" r="10" fill="white" stroke="#4b5563" stroke-width="2"/>
+    <text x="22" y="16" font-size="9" font-weight="bold" fill="#4b5563" text-anchor="middle">1</text>
+  </g>
+  <text x="50" y="190" font-family="Arial" font-size="8.5" fill="#374151" text-anchor="middle">Recibes este</text>
+  <text x="50" y="201" font-family="Arial" font-size="8.5" fill="#374151" text-anchor="middle">correo con pasos</text>
+
+  <!-- === PASO 2 === -->
+  <g transform="translate(165, 80)">
+    <circle cx="0" cy="40" r="32" fill="#4b5563"/>
+    <text x="0" y="28" font-size="18" text-anchor="middle" fill="white">💻</text>
+    <text x="0" y="46" font-family="Arial" font-size="8" font-weight="bold" fill="white" text-anchor="middle">ENTREGAR</text>
+    <text x="0" y="56" font-family="Arial" font-size="8" font-weight="bold" fill="white" text-anchor="middle">EQUIPOS</text>
+    <circle cx="22" cy="12" r="10" fill="white" stroke="#4b5563" stroke-width="2"/>
+    <text x="22" y="16" font-size="9" font-weight="bold" fill="#4b5563" text-anchor="middle">2</text>
+  </g>
+  <text x="165" y="190" font-family="Arial" font-size="8.5" fill="#374151" text-anchor="middle">TI / Servicios</text>
+  <text x="165" y="201" font-family="Arial" font-size="8.5" fill="#374151" text-anchor="middle">(si aplica)</text>
+
+  <!-- === PASO 3 === -->
+  <g transform="translate(280, 80)">
+    <circle cx="0" cy="40" r="32" fill="#4b5563"/>
+    <text x="0" y="28" font-size="18" text-anchor="middle" fill="white">🦺</text>
+    <text x="0" y="46" font-family="Arial" font-size="8" font-weight="bold" fill="white" text-anchor="middle">ENTREGAR</text>
+    <text x="0" y="56" font-family="Arial" font-size="8" font-weight="bold" fill="white" text-anchor="middle">EPPs / ROPA</text>
+    <circle cx="22" cy="12" r="10" fill="white" stroke="#4b5563" stroke-width="2"/>
+    <text x="22" y="16" font-size="9" font-weight="bold" fill="#4b5563" text-anchor="middle">3</text>
+  </g>
+  <text x="280" y="190" font-family="Arial" font-size="8.5" fill="#374151" text-anchor="middle">Equipos de</text>
+  <text x="280" y="201" font-family="Arial" font-size="8.5" fill="#374151" text-anchor="middle">protección y ropa</text>
+
+  <!-- === PASO 4 === -->
+  <g transform="translate(395, 80)">
+    <circle cx="0" cy="40" r="32" fill="#4b5563"/>
+    <text x="0" y="28" font-size="18" text-anchor="middle" fill="white">👔</text>
+    <text x="0" y="46" font-family="Arial" font-size="8" font-weight="bold" fill="white" text-anchor="middle">ÚLTIMO</text>
+    <text x="0" y="56" font-family="Arial" font-size="8" font-weight="bold" fill="white" text-anchor="middle">DÍA</text>
+    <circle cx="22" cy="12" r="10" fill="white" stroke="#4b5563" stroke-width="2"/>
+    <text x="22" y="16" font-size="9" font-weight="bold" fill="#4b5563" text-anchor="middle">4</text>
+  </g>
+  <text x="395" y="190" font-family="Arial" font-size="8.5" fill="#374151" text-anchor="middle">Entrega todo</text>
+  <text x="395" y="201" font-family="Arial" font-size="8.5" fill="#374151" text-anchor="middle">a tu líder</text>
+
+  <!-- === PASO 5 - DESTACADO EN ROSA === -->
+  <g transform="translate(510, 80)">
+    <circle cx="0" cy="40" r="32" fill="url(#pink2)"/>
+    <!-- Resplandor -->
+    <circle cx="0" cy="40" r="36" fill="none" stroke="#e91e8c" stroke-width="1.5" opacity="0.3"/>
+    <text x="0" y="28" font-size="18" text-anchor="middle" fill="white">💰</text>
+    <text x="0" y="46" font-family="Arial" font-size="8" font-weight="bold" fill="white" text-anchor="middle">LIQUIDACIÓN</text>
+    <text x="0" y="56" font-family="Arial" font-size="8" font-weight="bold" fill="white" text-anchor="middle">BENEFICIOS</text>
+    <circle cx="22" cy="12" r="10" fill="white" stroke="#e91e8c" stroke-width="2"/>
+    <text x="22" y="16" font-size="9" font-weight="bold" fill="#e91e8c" text-anchor="middle">5</text>
+  </g>
+  <text x="510" y="190" font-family="Arial" font-size="8.5" fill="#e91e8c" font-weight="bold" text-anchor="middle">A los 2 días</text>
+  <text x="510" y="201" font-family="Arial" font-size="8.5" fill="#e91e8c" font-weight="bold" text-anchor="middle">hábiles</text>
+
+  <!-- Nota al pie -->
+  <rect x="20" y="220" width="560" height="28" fill="#fdf2f8" rx="6" stroke="#fce7f3" stroke-width="1"/>
+  <text x="300" y="232" font-family="Arial" font-size="9" fill="#9d174d" text-anchor="middle">⏱ El proceso completo debe realizarse antes o durante tu último día laboral</text>
+  <text x="300" y="243" font-family="Arial" font-size="9" fill="#9d174d" text-anchor="middle">La liquidación se procesará dentro de los 2 días hábiles posteriores a tu cese</text>
+</svg>
