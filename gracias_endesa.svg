@@ -1,0 +1,67 @@
+<svg width="600" height="220" viewBox="0 0 600 220" xmlns="http://www.w3.org/2000/svg" font-family="Georgia, 'Times New Roman', serif">
+  <!-- Fondo degradado oscuro elegante -->
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#16213e;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="pinkGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#e91e8c;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ff6b9d;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="circleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e91e8c;stop-opacity:0.15" />
+      <stop offset="100%" style="stop-color:#e91e8c;stop-opacity:0.05" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Fondo principal -->
+  <rect width="600" height="220" fill="url(#bgGrad)" rx="12"/>
+
+  <!-- Círculos decorativos de fondo -->
+  <circle cx="520" cy="30" r="80" fill="url(#circleGrad)"/>
+  <circle cx="80" cy="190" r="60" fill="url(#circleGrad)"/>
+
+  <!-- Línea rosa superior -->
+  <rect x="0" y="0" width="600" height="5" fill="url(#pinkGrad)" rx="12"/>
+
+  <!-- Línea rosa inferior -->
+  <rect x="0" y="215" width="600" height="5" fill="url(#pinkGrad)" rx="12"/>
+
+  <!-- Ícono de corazón/apretón de manos (manos juntas) -->
+  <g transform="translate(60, 70)" filter="url(#glow)">
+    <!-- Círculo rosa detrás del ícono -->
+    <circle cx="40" cy="40" r="42" fill="#e91e8c" opacity="0.15"/>
+    <circle cx="40" cy="40" r="35" fill="none" stroke="#e91e8c" stroke-width="2" opacity="0.4"/>
+    <!-- Manos unidas estilizadas -->
+    <text x="40" y="55" font-size="40" text-anchor="middle" fill="#e91e8c">🤝</text>
+  </g>
+
+  <!-- GRUPO ENDESA - logo texto -->
+  <text x="300" y="58" font-family="Georgia, serif" font-size="13" font-weight="bold" fill="#e91e8c" text-anchor="middle" letter-spacing="4">GRUPO ENDESA</text>
+
+  <!-- Línea separadora pequeña -->
+  <rect x="240" y="65" width="120" height="1" fill="#e91e8c" opacity="0.5"/>
+
+  <!-- Texto principal GRACIAS -->
+  <text x="300" y="110" font-family="Georgia, serif" font-size="36" font-weight="bold" fill="#ffffff" text-anchor="middle" letter-spacing="2">GRACIAS</text>
+
+  <!-- Subtexto -->
+  <text x="300" y="140" font-family="Georgia, serif" font-size="15" fill="#b0b8cc" text-anchor="middle" letter-spacing="1">por pertenecer a nuestra familia</text>
+
+  <!-- Texto adicional -->
+  <text x="300" y="170" font-family="Georgia, serif" font-size="12" fill="#7a8299" text-anchor="middle" letter-spacing="0.5">Tu esfuerzo y dedicación siempre serán recordados</text>
+
+  <!-- Estrellas decorativas -->
+  <text x="170" y="115" font-size="12" fill="#e91e8c" opacity="0.6">✦</text>
+  <text x="425" y="115" font-size="12" fill="#e91e8c" opacity="0.6">✦</text>
+  <text x="148" y="138" font-size="8" fill="#e91e8c" opacity="0.4">✦</text>
+  <text x="447" y="138" font-size="8" fill="#e91e8c" opacity="0.4">✦</text>
+</svg>
